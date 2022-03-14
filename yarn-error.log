@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/monteiro/.serverless/bin:/home/monteiro/.serverless/bin:/home/monteiro/.zinit/polaris/bin:/home/monteiro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.7.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/monteiro/Documentos/www/js-expert/package.json: Unexpected token } in JSON at position 143
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "js-expert",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server/index.js",
+    },
+    "engine": {
+      "node": "17"
+    },
+    "author": "Igor-Mont",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
