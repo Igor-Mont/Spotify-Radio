@@ -10,7 +10,7 @@
     "test:watch": "LOG_DISABLED=true NODE_OPTIONS=--experimental-vm-modules jest --no-cache --watchAll",
     "test:coverage": "LOG_DISABLED=true NODE_OPTIONS=--experimental-vm-modules jest --no-cache --coverage tests/unit"
   },
-  "engine": {
+  "engines": {
     "node": "17"
   },
   "author": "Igor-Mont",
